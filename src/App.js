@@ -1,10 +1,6 @@
-import React, { Component } from 'react';
-
-export default class App extends Component {
-
-    render(){
-      return(
-        <div>Wolans</div>
-      )
-    }
+import React from 'react';
+import  ProductsAndSuppliers from "./components/ProductsAndSuppliers"
+function App(){
+  return <ProductsAndSuppliers/>
 }
+export default App;
